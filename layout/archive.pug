@@ -6,3 +6,5 @@ block content
     .article-sort-title= `${_p('page.articles')} - ${getArchiveLength()}`
     +articleSort(page.posts)
     include includes/pagination.pug
+    //- 统计图功能 - 归档页面
+    <div id="posts-chart" data-start="2024-10" style="height: 300px; padding: 10px;"></div>
